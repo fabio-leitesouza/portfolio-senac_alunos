@@ -1,0 +1,46 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.equipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contato__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 1.25rem;
+}
+
+.contato__botao {
+    color: var(--cinza-escuro);
+
+    border-color: var(--cinza-escuro);
+
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .contatos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+

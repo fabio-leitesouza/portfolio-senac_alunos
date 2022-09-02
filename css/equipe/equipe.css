@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;  
+    background-color: var(--azul-claro);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.equipe__aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--bg-chamada-mobile);    
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);    
+}
+
+.equipe__foto-aluno {
+    background: red;
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+    width: 100px;
+    background-repeat: no-repeat;
+    border-radius: 5px;    
+    margin: 1rem;
+}
+
+.equipe__botao {
+    background-color: aliceblue;
+    width: 70%;
+    
+    text-justify: auto;
+    height: 50px;
+    margin: 1rem auto; 
+}
+
+.equipe__descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.equipe__detalhes {
+    display: flex;
+    align-items: center;
+    margin-right: 15%;   
+
+}
+
+.equipe__nome {
+    color: var(--branco);
+    font-weight: bold;
+
+}
+.equipe__funcao {
+    color: var(--branco);
+}
+
+.skills {
+    color: var(--branco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.equipe_skills {
+    color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.skills__skill {
+    text-align: center;
+    display: block;
+    width: 100%;  
+    font-size: 0.6em;
+    box-sizing: border-box;  
+    margin: 0 0.1rem;
+    border: 1px solid var(--branco);
+    border-radius: 1px;
+    padding: .25rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .equipe {
+        flex-direction: row;   
+        flex-wrap: wrap;
+        justify-content: space-around;          
+    }
+
+    .equipe__aluno {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .equipe__aluno {
+        width: 32%;
+    }
+    .equipe__detalhes {
+        
+        margin-right: 5%;   
+    
+    }
+}
+
