@@ -1,6 +1,5 @@
 .equipe__foto-aluno--mateus {
     background-image: url(../../img/equipe/mateusa.jpg);
-    
 }
 
 .equipe__foto-aluno--nicolas {
@@ -17,4 +16,20 @@
 
 .equipe__foto-aluno--mayllon {
     background-image: url(../../img/equipe/myllon.jpg);
+}
+
+.equipe__foto-aluno--jhem {
+    background-image: url(../../img/equipe/jhen.jpg);
+}
+
+.equipe__foto-aluno--gabriela {
+    background-image: url(../../img/equipe/gabi.jpg);
+}
+
+.equipe__foto-aluno--esther {
+    background-image: url(../../img/equipe/esther.jpg);
+}
+
+.equipe__foto-aluno--rodrigo {
+    background-image: url(../../img/equipe/rodrigo.jpg);
 }
